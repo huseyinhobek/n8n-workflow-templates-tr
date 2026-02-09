@@ -1,22 +1,29 @@
 # n8n-workflow-templates-tr
 
-A curated collection of **publicly available n8n workflow templates** gathered from various sources across the internet — packaged for easy browsing, learning, and reuse.
+A curated collection of **publicly available n8n workflow templates** gathered from various sources across the internet — organized for easy browsing, learning, and reuse.
 
-> 🇹🇷 While the repo name includes `-tr`, the content is intentionally **English-first** so it’s discoverable via GitHub/Google searches for “n8n workflow templates”.
+> 🇹🇷 Repo name includes `-tr`, but the content is **English-first** to maximize discoverability via GitHub/Google searches for “n8n workflow templates”.
 
-## What you’ll find here
+---
+
+## What’s inside
 
 - Ready-to-import **n8n JSON workflows**
-- Categorized templates under `templates/`
-- A lightweight archive to help you quickly discover automation ideas
+- Two main collections:
+  - `templates/` → curated templates (from various public sources)
+  - `workflows/` → imported workflow library (sourced from Zie619/n8n-workflows)
+
+---
 
 ## How to use
 
-1. Open any workflow file under `templates/`
+1. Open any workflow file (`*.json`) under `templates/` or `workflows/`
 2. Copy/download the JSON
 3. In n8n: **Workflows → Import from File / Import from Clipboard**
 4. Configure credentials (API keys, OAuth, webhooks, etc.)
-5. Activate and test
+5. Test and activate
+
+---
 
 ## Folder structure
 
@@ -24,15 +31,34 @@ A curated collection of **publicly available n8n workflow templates** gathered f
       <category>/
         <workflow>.json
 
+    workflows/
+      <category>/
+        <workflow>.json
+
+---
+
+## Sources
+
+This repo is a curated aggregation. Primary upstream sources include:
+
+- https://github.com/enescingoz/awesome-n8n-templates
+- https://github.com/Zie619/n8n-workflows (workflows folder)
+
+If you are a rights holder and want content removed or attribution updated, open an issue.
+
+---
+
 ## Disclaimer / Attribution (Important)
 
-This repository is a **curated collection** of workflow templates that were found publicly online.
+This repository is a **curated collection** of workflow templates found publicly online.
 
 - We **did not create** or claim ownership of third-party workflows unless explicitly stated.
 - All rights and credits belong to their **respective authors/owners**.
 - This repo exists for **learning, discovery, and convenience**.
 
-If you are the author/rights holder of any workflow and would like it removed or properly attributed, please open an issue or contact us with the relevant links. We will respond promptly.
+If you are the author/rights holder of any workflow and would like it removed or properly attributed, please open an issue with the relevant links. We will respond promptly.
+
+---
 
 ## Licensing
 
@@ -41,30 +67,30 @@ Each workflow may be subject to its **own license and terms** defined by the ori
 - If a workflow includes a license, follow that license.
 - If no license is included, **assume all rights are reserved by the original author**.
 
-By using any workflow from this repository, you agree that you are responsible for ensuring compliance with original licenses/terms and applicable laws.
+By using any workflow from this repository, you are responsible for ensuring compliance with original licenses/terms and applicable laws.
+
+---
 
 ## Removal / Takedown Requests
 
-To request removal or attribution updates, please include:
-
-- Workflow file name / path in this repo
+Include:
+- Workflow file path in this repo
 - Original source link
 - Proof of ownership (if applicable)
 
 We will remove or update attribution as soon as possible.
 
-## Contributing
+---
 
-Contributions are welcome **only if** you:
+## Contribution rules (strict)
 
-- Provide a clear source link
-- Include author/owner attribution (when available)
-- Include license information (when available)
+PRs accepted only if you provide:
+- Source link
+- Author/owner attribution (when available)
+- License information (when available)
+- Short description + required credentials
 
-Open a PR with:
-- The workflow JSON
-- A short description (what it does + required credentials)
-- Source + attribution details
+---
 
 ## Keywords (for search)
 
