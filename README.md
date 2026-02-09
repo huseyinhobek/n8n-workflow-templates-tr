@@ -1,97 +1,125 @@
-# n8n-workflow-templates-tr
+<p align="center">
+<img src="assets/vibecode.png" alt="VibeCode Logo" width="100%" style="max-width: 760px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+</p>
 
-A curated collection of **publicly available n8n workflow templates** gathered from various sources across the internet — organized for easy browsing, learning, and reuse.
+<p align="center">
+<a href="https://github.com/huseyinhobek/n8n-workflow-templates-tr/stargazers">
+<img alt="Stars" src="https://www.google.com/search?q=https://img.shields.io/github/stars/huseyinhobek/n8n-workflow-templates-tr%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26color%3Df4f4f5%26labelColor%3D18181b">
+</a>
+<a href="https://github.com/huseyinhobek/n8n-workflow-templates-tr/network/members">
+<img alt="Forks" src="https://www.google.com/search?q=https://img.shields.io/github/forks/huseyinhobek/n8n-workflow-templates-tr%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26color%3Df4f4f5%26labelColor%3D18181b">
+</a>
+<a href="https://n8n.io/">
+<img alt="n8n" src="https://www.google.com/search?q=https://img.shields.io/badge/n8n-Workflows-FF6B6B%3Fstyle%3Dfor-the-badge%26logo%3Dn8n%26logoColor%3Dwhite">
+</a>
+<a href="#">
+<img alt="No Code" src="https://www.google.com/search?q=https://img.shields.io/badge/Auto-No_Code-7C3AED%3Fstyle%3Dfor-the-badge">
+</a>
+</p>
 
-> 🇹🇷 Repo name includes `-tr`, but the content is **English-first** to maximize discoverability via GitHub/Google searches for “n8n workflow templates”.
+<p align="center">
+<b>🚀 Curated n8n workflow templates. Organized for fast discovery, learning, and reuse.</b>
 
----
 
-## What’s inside
 
-- Ready-to-import **n8n JSON workflows**
-- Two main collections:
-  - `templates/` → curated templates (from various public sources)
-  - `workflows/` → imported workflow library (sourced from Zie619/n8n-workflows)
 
----
 
-## How to use
+<sub>🇹🇷 Repo name includes <code>-tr</code>, but content is <b>English-first</b> for global utility.</sub>
+</p>
 
-1. Open any workflow file (`*.json`) under `templates/` or `workflows/`
-2. Copy/download the JSON
-3. In n8n: **Workflows → Import from File / Import from Clipboard**
-4. Configure credentials (API keys, OAuth, webhooks, etc.)
-5. Test and activate
+⚡ Quick Links
 
----
+🌐 Official n8n Library: n8n.io/workflows (7,800+ templates)
 
-## Folder structure
+💼 Collab / Training / Consulting: info@huseyinhobek.com
 
-    templates/
-      <category>/
-        <workflow>.json
+📦 What’s Inside
 
-    workflows/
-      <category>/
-        <workflow>.json
+This repository provides ready-to-import n8n JSON workflows categorized into two main collections:
 
----
+Directory
 
-## Sources
+Description
 
-This repo is a curated aggregation. Primary upstream sources include:
+templates/
 
-- https://github.com/enescingoz/awesome-n8n-templates
-- https://github.com/Zie619/n8n-workflows (workflows folder)
+💎 Curated: Hand-picked templates gathered from public sources. Optimized for quality.
 
-If you are a rights holder and want content removed or attribution updated, open an issue.
+workflows/
 
----
+📚 Library: Bulk imported workflow archives (e.g., from Zie619). Useful for deep searching.
 
-## Disclaimer / Attribution (Important)
+🛠️ How to Use (Import Guide)
 
-This repository is a **curated collection** of workflow templates found publicly online.
+Run any workflow in your n8n instance in 5 steps:
 
-- We **did not create** or claim ownership of third-party workflows unless explicitly stated.
-- All rights and credits belong to their **respective authors/owners**.
-- This repo exists for **learning, discovery, and convenience**.
+Select: Open any *.json file under templates/ or workflows/.
 
-If you are the author/rights holder of any workflow and would like it removed or properly attributed, please open an issue with the relevant links. We will respond promptly.
+Copy: Copy the raw JSON content (or download the file).
 
----
+Import: In your n8n dashboard, go to Workflows → Import from File (or press Ctrl+V to paste from clipboard).
 
-## Licensing
+Configure: Click on nodes with red warning signs to add your own Credentials (API Keys, OAuth, etc.).
 
-Each workflow may be subject to its **own license and terms** defined by the original author/source.
+Launch: Test and toggle to "Active". 🟢
 
-- If a workflow includes a license, follow that license.
-- If no license is included, **assume all rights are reserved by the original author**.
+📂 Folder Structure
 
-By using any workflow from this repository, you are responsible for ensuring compliance with original licenses/terms and applicable laws.
+.
+├── templates/                 # Hand-picked templates
+│   └── <category>/
+│       └── <workflow>.json
+│
+└── workflows/                 # Extended library
+    └── <category>/
+        └── <workflow>.json
 
----
 
-## Removal / Takedown Requests
+📊 Stats:
+To count total workflows locally, run:
 
-Include:
-- Workflow file path in this repo
-- Original source link
-- Proof of ownership (if applicable)
+find templates workflows -type f -name "*.json" | wc -l
 
-We will remove or update attribution as soon as possible.
 
----
+🛡️ Security & Hygiene
 
-## Contribution rules (strict)
+[!WARNING]
+Check for Secrets: While this repository strives to be clean, public workflow JSON files may occasionally contain leftover API keys or tokens from their original authors.
 
-PRs accepted only if you provide:
-- Source link
-- Author/owner attribution (when available)
-- License information (when available)
-- Short description + required credentials
+ALWAYS check the credential fields inside nodes before activating.
 
----
+Reporting Secrets: If you find a leftover secret, please open an issue or email info@huseyinhobek.com with the file path and line number.
 
-## Keywords (for search)
+⚖️ Disclaimer & Attribution
 
-n8n, n8n templates, n8n workflow templates, automation, nocode, lowcode, integrations, workflows
+This repo is an aggregation for educational and convenience purposes.
+
+Ownership: We do not claim ownership of third-party workflows unless explicitly stated. All rights belong to their respective authors.
+
+Licenses: Each workflow is subject to its original author's license. If none is included, assume all rights are reserved by the original author.
+
+Takedown Requests: If you are a rights holder and want content removed, please open an issue with the original source link.
+
+🌟 Credits / Upstream Sources
+
+enescingoz/awesome-n8n-templates
+
+Zie619/n8n-workflows
+
+Official n8n Library
+
+🤝 Contributing (Strict Rules)
+
+PRs are welcome if you provide:
+
+🔗 Original source link.
+
+✍️ Author attribution (where available).
+
+📝 Short description + required credentials.
+
+🔑 NO secrets/API keys in the JSON.
+
+<p align="center">
+<i>Automation for everyone.</i>
+</p>
